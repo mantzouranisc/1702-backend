@@ -1,2 +1,6 @@
 idea/
+/node_modules
 .~lock.ship_positions.csv#
+
+TODO
+.env

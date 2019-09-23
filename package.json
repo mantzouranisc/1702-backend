@@ -1,0 +1,28 @@
+{
+  "name": "backend-api-test",
+  "version": "1.0.0",
+  "description": "Your task is to create a **RESTful API** that serves vessel tracks from a raw vessel positions data-source.\r The raw data is supplied as a JSON file that you must import to a database schema of your choice.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickKarvounakis/backend-API-test.git"
+  },
+  "author": "Karvounakhs nikos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NickKarvounakis/backend-API-test/issues"
+  },
+  "homepage": "https://github.com/NickKarvounakis/backend-API-test#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.0.0",
+    "mongoose": "^5.7.1",
+    "nodemon": "^1.19.2"
+  }
+}
